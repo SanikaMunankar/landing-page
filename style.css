@@ -72,7 +72,7 @@ a {
 }
 
 .content {
-    padding: 12px 120px;
+    margin: 0;
 }
 
 .info {
@@ -116,6 +116,23 @@ a {
 
 img {
     border-radius: 5px;
+}
+
+.quote {
+    padding: 80px 120px;
+    background-color: #e5e7eb;
+}
+
+.quote-text {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 300;
+}
+
+.auther {
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
 }
 
 
