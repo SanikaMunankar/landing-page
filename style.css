@@ -93,6 +93,7 @@ a {
     flex-shrink: 0;
     gap: 20px;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .item {
