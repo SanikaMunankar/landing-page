@@ -87,19 +87,18 @@ a {
 }
 
 .cards {
-    margin: 0 100px;
-    padding: 20px;
-    width: 100px;
-    height: auto;
+    margin: 0 200px;
+    padding: 20px;   
     display: flex; 
-    align-items: flex-start;
-    gap: 50px;
+    flex-shrink: 0;
+    gap: 20px;
+    flex-wrap: wrap;
 
 }
 
 .item {
-    display: flex;
-    flex-wrap: wrap;
+    width: 170px;
+    height: auto;
 }
 
 .card-subtext {
